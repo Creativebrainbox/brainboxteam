@@ -138,15 +138,14 @@ const HomePage = () => {
           <h2 className="text-3xl md:text-4xl font-bold text-center text-foreground mb-2">ABOUT US</h2>
           <div className="w-16 h-1 bg-primary mx-auto mb-12" />
           <div className="grid lg:grid-cols-2 gap-12 items-center">
-            <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
+            <div className="grid grid-cols-2 gap-4">
               {[
-                "https://images.unsplash.com/photo-1432888622747-4eb9a8efeb07?w=300&h=200&fit=crop",
-                "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=300&h=200&fit=crop",
-                "https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=300&h=200&fit=crop",
-                "https://images.unsplash.com/photo-1533750516457-a7f992034fec?w=300&h=200&fit=crop",
-                "https://images.unsplash.com/photo-1547658719-da2b51169166?w=300&h=200&fit=crop",
-              ].map((img, i) => (
-                <img key={i} src={img} alt={`About ${i + 1}`} className="rounded-lg w-full h-32 object-cover" />
+                { img: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=280&fit=crop", alt: "SEO Analytics Dashboard" },
+                { img: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=400&h=280&fit=crop", alt: "Web Development" },
+                { img: "https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=400&h=280&fit=crop", alt: "Social Media Marketing" },
+                { img: "https://images.unsplash.com/photo-1547658719-da2b51169166?w=400&h=280&fit=crop", alt: "Responsive Design" },
+              ].map((item, i) => (
+                <img key={i} src={item.img} alt={item.alt} className="rounded-lg w-full h-40 object-cover shadow-sm" />
               ))}
             </div>
             <div>
