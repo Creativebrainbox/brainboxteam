@@ -8,9 +8,9 @@ const TopBar = () => (
         <span>WhatsApp: +1 (236) 613-4007</span>
       </a>
       <div className="flex items-center gap-6">
-        <a href="mailto:admin@brainboxworld.com" className="flex items-center gap-2 hover:opacity-80 transition-opacity">
+        <a href="mailto:info@brainboxworld.infy.uk" className="flex items-center gap-2 hover:opacity-80 transition-opacity">
           <Mail className="w-4 h-4" />
-          <span>admin@brainboxworld.com</span>
+          <span>info@brainboxworld.infy.uk</span>
         </a>
         <div className="hidden sm:flex items-center gap-2">
           <Clock className="w-4 h-4" />

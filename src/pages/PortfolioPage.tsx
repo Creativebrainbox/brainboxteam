@@ -8,6 +8,7 @@ const portfolioItems = [
   { name: "goondiwindicotton.com.au", category: "Cotton Products", url: "https://goondiwindicotton.com.au/", img: "https://images.unsplash.com/photo-1582735689369-4fe89db7114c?w=600&h=500&fit=crop" },
   { name: "shopbenetek.com", category: "Retail", url: "https://shopbenetek.com/", img: "https://images.unsplash.com/photo-1472851294608-062f824d29cc?w=600&h=500&fit=crop" },
   { name: "thelandmarkproject.com", category: "Adventure Gear", url: "https://thelandmarkproject.com/", img: "https://images.unsplash.com/photo-1551632811-561732d1e306?w=600&h=500&fit=crop" },
+  { name: "glamira.africa", category: "Jewelry", url: "https://www.glamira.africa/", img: "https://images.unsplash.com/photo-1515562141589-67f0d569b6fc?w=600&h=500&fit=crop" },
 ];
 
 const PortfolioPage = () => (
