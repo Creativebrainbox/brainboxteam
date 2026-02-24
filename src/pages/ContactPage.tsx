@@ -30,7 +30,7 @@ const ContactPage = () => {
                   </div>
                   <div>
                     <h4 className="font-bold text-foreground">Email</h4>
-                    <p className="text-muted-foreground">info@brainboxworld.co.uk</p>
+                    <p className="text-muted-foreground">info@brainboxworld.infy.uk</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
