@@ -81,13 +81,13 @@ const ExperiencePage = () => {
         {/* Tabs */}
         <div className="container mx-auto px-4 mb-10">
           <div className="flex justify-center">
-            <div className="bg-card border rounded-full p-1 flex gap-1">
+            <div className="bg-card border rounded-lg p-1 inline-flex">
               {tabs.map((tab) => (
                 <button
                   key={tab.id}
                   onClick={() => setActiveTab(tab.id)}
-                  className={`flex items-center gap-2 px-6 py-2.5 rounded-full text-sm font-medium transition-colors ${
-                    activeTab === tab.id ? "bg-primary text-primary-foreground" : "text-muted-foreground hover:text-foreground"
+                  className={`flex items-center gap-2 px-8 py-3 rounded-md text-sm font-medium transition-colors ${
+                    activeTab === tab.id ? "bg-primary text-primary-foreground shadow-sm" : "text-muted-foreground hover:text-foreground"
                   }`}
                 >
                   <tab.icon className="w-4 h-4" />

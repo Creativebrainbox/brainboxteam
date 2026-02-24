@@ -16,9 +16,9 @@ const ContactPage = () => {
 
       <section className="py-16 bg-background">
         <div className="container mx-auto px-4">
-          <div className="grid lg:grid-cols-2 gap-12">
+          <div className="grid lg:grid-cols-5 gap-0">
             {/* Left column - info */}
-            <div>
+            <div className="lg:col-span-2 lg:pr-10 lg:border-r border-border pb-10 lg:pb-0">
               <h2 className="text-2xl md:text-3xl font-bold text-foreground mb-4">Let's Build Something Amazing</h2>
               <p className="text-muted-foreground mb-8">
                 Whether you need a new website, better SEO rankings, or a comprehensive digital marketing strategy, our team is here to help you achieve your goals.
@@ -66,7 +66,7 @@ const ContactPage = () => {
             </div>
 
             {/* Right column - form */}
-            <div className="bg-card border rounded-xl p-8">
+            <div className="lg:col-span-3 lg:pl-10 pt-10 lg:pt-0">
               <form onSubmit={handleSubmit} className="space-y-5">
                 <div className="grid sm:grid-cols-2 gap-4">
                   <div>
